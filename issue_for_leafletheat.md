@@ -43,6 +43,11 @@ So the failure is a **cross-instance** issue: heat uses one Leaflet, the map (an
 4. Run: `L.heatLayer(latlngs, { radius: 25, blur: 15 }).addTo(map)`.
 5. Open the browser console → the error appears when the heat layer redraws.
 
+**Repro repository & live demo:**
+
+- **Repository:** https://github.com/daishu0000/leaflet-heat-vue-repro  
+- **Live demo:** https://daishu0000.github.io/leaflet-heat-vue-repro/
+
 Minimal repro (Vue 3 + Vite):
 
 ```vue
